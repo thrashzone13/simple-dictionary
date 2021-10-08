@@ -1,0 +1,5 @@
+{
+  "platform": "docker",
+  "app": "wordnetbot",
+  "port": 80
+}

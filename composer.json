@@ -1,0 +1,28 @@
+{
+  "name": "thrashzone13/wordnet-bot",
+  "description": "Telegram bot for wordnet dic",
+  "type": "project",
+  "require": {
+    "ext-curl": "*",
+    "longman/telegram-bot": "*",
+    "php": "^7.3",
+    "slim/slim": "4.*",
+    "slim/psr7": "dev-master",
+    "thrashzone13/wordnet-php-wrapper": "1.0"
+  },
+  "authors": [
+    {
+      "name": "thrashzone13",
+      "email": "reza.rabbani.369@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "WordnetBot\\": "app/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  },
+  "minimum-stability": "dev"
+}
